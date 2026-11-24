@@ -1,0 +1,31 @@
+dom is a tree like structure 
+dom created by browser 
+dom is used whenever we need to apply dynamic changes 
+any dynamic change in html is possible through dom only 
+steps
+-access the elements
+-store into a local vsriable
+-manipulate the dom 
+how to change conten of dom 
+-innertext-for introducing stles in text
+-textcontent-for changing text
+-innerhtml-to introduce html tag
+queryselector
+queryselectorall
+EVENTS IN JS**
+-THEY ARE TERMEED AS SOME KIND OF USER INTERACTIONS THAT HAPPEN TO HTML elements which csn trigger an action 
+-KEYBOARD-key prees,keyup,keydown
+-MOUSE-CLICH,DOUBLE CLICK,muose enter,mousein,mouseout,mouse enter mouse leave,on change events 
+-SCORLL
+-FORM-form submit,onfocus(one element is clicked),onblur
+how onclick event works
+
+
+
+24-11-2026  || Tuesday
+
+Exception Handling  
+-TRY
+-Throw=custom error msgs
+-Catch
+-Finally-no matter op of the throw catch it executes the code

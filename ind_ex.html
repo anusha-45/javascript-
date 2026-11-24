@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="head1" onmouseleave="leave()">Welcome to basics</h2>
+    <input type="date"  name="" id="date">
+    <button onclick="show()">ClickMe</button>
+    <input type="text"  onfocus="focusn()" onblur="blurn()" name="" id="text" onkeypress="display(event)">
+    <form onsubmit="return validate()">
+        <label for="Email">Email</label> </br>
+        <input type="email" name="" id="email" required></br>
+        <span id="error"></span>
+        <label for="password">Password</label> </br>
+        <input type="password" name="" id="pass" required></br>
+        <button >Submitted</button>
+    </form>
+   <button onclick="show()">Click Me</button><br>
+    <label>Enter any number between 5 and 10</label>
+    <input type="text" name="" id="num"></br>
+    <small id="errmsg"></small>
+    <button type="button" onclick="verify()">Validate Number</button>
+ <script src="script.js"></script>   
+</body>
+</html>
